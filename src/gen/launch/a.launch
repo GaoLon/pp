@@ -1,0 +1,13 @@
+<launch>
+  <node pkg ="pp" name ="pp" type ="pp" output = "screen" >
+    <!-- !e2e3 -->
+    <!-- <param name="~normal_radius" value="0.4" /> -->
+    <!-- <param name="~max_curvature" value="0.9" /> -->
+    <!-- <param name="~min_cosxi" value="0.8" /> -->
+    <!-- !e2e4 -->
+    <param name="~normal_radius" value="0.4" />
+    <param name="~max_curvature" value="0.9" />
+    <param name="~min_cosxi" value="0.8" />
+  </node>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find pp)/launch/pp.rviz" required="true" />
+</launch>

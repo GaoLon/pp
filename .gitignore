@@ -1,0 +1,15 @@
+build/
+devel/
+ref/
+logs/
+__pycache__/
+
+.vscode
+.catkin_tools
+.catkin_workspace
+*.bag
+*.pcd
+*.zip
+*.ply
+*.param
+roadmap/
